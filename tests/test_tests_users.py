@@ -1,5 +1,8 @@
 from schemas.schemas.user_schema import validate_user_structure
 import pytest
+from utils.api_client import ApiClient
+from config.settings import BASE_URL
+
 import json
 import os
 

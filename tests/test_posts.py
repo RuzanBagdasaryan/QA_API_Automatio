@@ -1,3 +1,7 @@
+from utils.api_client import ApiClient
+from config.settings import BASE_URL
+
+
 def test_create_post(client):
     payload = {
         "title": "Automation Test",
